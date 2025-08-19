@@ -9,7 +9,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class TC06_Alerts2 {
+public class TC07_KeyAction {
 
 	public static void main(String[] args) throws InterruptedException, AWTException {
 
@@ -50,7 +50,6 @@ public class TC06_Alerts2 {
 		robot.keyPress(KeyEvent.VK_1);
 		robot.keyPress(KeyEvent.VK_1);
 		robot.keyPress(KeyEvent.VK_1);
-		robot.keyPress(KeyEvent.VK_1);
 
 		
 //		alert.sendKeys("Test Data");
@@ -61,6 +60,5 @@ public class TC06_Alerts2 {
 
 		//close the browser
 		driver.quit();
-	}
-
-}
+	
+}}
