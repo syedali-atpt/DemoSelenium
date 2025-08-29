@@ -47,9 +47,6 @@ public class Selectors {
 		//partial link text
 		driver.findElement(By.partialLinkText("Today's")).click();
 		
-		
-	
-		
 	}
 	
 	
