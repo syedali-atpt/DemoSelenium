@@ -27,24 +27,22 @@ public class TC16_WebTable {
 //		
 //		System.out.println(data);
 
-		//Read row data
+		// Read row data
 //		String rowData =driver.findElement(By.xpath("//table[@id=\"countries\"]/tbody/tr[1]")).getText();
 //		System.out.println(rowData);
 
-		//Read column data
+		// Read column data
 //		List<WebElement> countries = driver.findElements(By.xpath("//table[@id=\"countries\"]/tbody/tr/td[2]"));
 //		for(WebElement ele:countries) {
 //			System.out.println(ele.getText());
 //		}
-		
-		//Read whole table
+
+		// Read whole table
 		List<WebElement> allRows = driver.findElements(By.xpath("//table[@id=\"countries\"]/tbody/tr"));
-		for(WebElement row:allRows) {
+		for (WebElement row : allRows) {
 			System.out.println(row.getText());
 			System.out.println();
 		}
-		
-		
 
 	}
 }
